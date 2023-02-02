@@ -1,0 +1,179 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-botaofeioidioma {
+  color: rgb(119, 119, 119);
+  opacity: 0.7;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(239, 239, 239);
+}
+.home-navlink {
+  text-decoration: none;
+}
+.home-titulooi {
+  height: 63px;
+  font-size: 45px;
+  font-style: normal;
+  margin-top: 13%;
+  text-align: center;
+  font-weight: 700;
+}
+.home-subtituloinicio {
+  font-size: 18px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: var(--dl-space-space-threeunits);
+  margin-right: var(--dl-space-space-threeunits);
+  padding-left: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 0px;
+}
+.home-container-botoes {
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 0px;
+  justify-content: center;
+}
+.home-botaoblog {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.home-botaoprojetos {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.home-botaosobre {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.home-container-links {
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0px;
+  justify-content: center;
+}
+.home-link {
+  display: contents;
+}
+.home-twitterlogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.home-link1 {
+  display: contents;
+}
+.home-instagramlogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.home-link2 {
+  display: contents;
+}
+.home-githublogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.home-link3 {
+  display: contents;
+}
+.home-maillogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+@media(max-width: 479px) {
+  .home-titulooi {
+    height: 97px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5;
+  }
+  .home-subtituloinicio {
+    font-size: 20px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-container-botoes {
+    height: 117px;
+    align-self: flex-start;
+    margin-bottom: 0px;
+  }
+  .home-container-links {
+    height: 146px;
+    align-self: flex-start;
+  }
+}

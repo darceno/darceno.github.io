@@ -1,0 +1,176 @@
+.incio-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.incio-botaofeioidioma {
+  color: #777777;
+  opacity: 0.7;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: #efefef;
+}
+.incio-titulooi {
+  height: 63px;
+  font-size: 45px;
+  font-style: normal;
+  margin-top: 13%;
+  text-align: center;
+  font-weight: 700;
+}
+.incio-subtituloinicio {
+  font-size: 18px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: var(--dl-space-space-threeunits);
+  margin-right: var(--dl-space-space-threeunits);
+  padding-left: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 0px;
+}
+.incio-container-botoes {
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 0px;
+  justify-content: center;
+}
+.incio-botaoblog {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.incio-botaoprojetos {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.incio-botaosobre {
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  font-size: 16px;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.incio-container-links {
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0px;
+  justify-content: center;
+}
+.incio-link {
+  display: contents;
+}
+.incio-twitterlogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.incio-link1 {
+  display: contents;
+}
+.incio-instagramlogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.incio-link2 {
+  display: contents;
+}
+.incio-githublogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.incio-link3 {
+  display: contents;
+}
+.incio-maillogo {
+  width: 48px;
+  height: 54px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+@media(max-width: 479px) {
+  .incio-titulooi {
+    height: 97px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5;
+  }
+  .incio-subtituloinicio {
+    font-size: 20px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .incio-container-botoes {
+    height: 117px;
+    align-self: flex-start;
+    margin-bottom: 0px;
+  }
+  .incio-container-links {
+    height: 146px;
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,99 @@
+.projects-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projects-botaoidiomaprojetos {
+  color: rgb(119, 119, 119);
+  opacity: 0.7;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-style: hidden;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(239, 239, 239);
+}
+.projects-navlink {
+  text-decoration: none;
+}
+.projects-tituloprojetos {
+  align-self: center;
+  margin-top: 3%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.projects-text04 {
+  font-size: 18px;
+}
+.projects-textoprojetos {
+  font-size: 16px;
+  margin-top: 0%;
+  text-align: left;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-bottom: 0%;
+}
+.projects-listaprojetos {
+  font-size: 16px;
+  margin-top: 0%;
+  text-align: left;
+  margin-left: 34%;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  margin-right: 34%;
+  margin-bottom: 0%;
+}
+.projects-item1 {
+  margin-top: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.projects-item2 {
+  margin-top: var(--dl-space-space-unit);
+}
+.projects-item3 {
+  margin-top: var(--dl-space-space-unit);
+}
+.projects-link {
+  text-decoration: none;
+}
+.projects-item4 {
+  margin-top: var(--dl-space-space-unit);
+}
+.projects-item5 {
+  margin-top: var(--dl-space-space-unit);
+}
+.projects-navlink2 {
+  text-decoration: none;
+}
+.projects-botaoinicio {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  align-self: center;
+  margin-top: 120px;
+  text-align: center;
+  font-weight: 700;
+  border-style: hidden;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+}
+@media(max-width: 479px) {
+  .projects-textoprojetos {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .projects-listaprojetos {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

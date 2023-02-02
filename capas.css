@@ -1,0 +1,65 @@
+.capas-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.capas-image {
+  width: 851px;
+  align-self: center;
+  margin-top: 1%;
+  object-fit: cover;
+  margin-bottom: 1%;
+}
+.capas-image1 {
+  width: 851px;
+  align-self: center;
+  margin-top: 1%;
+  object-fit: cover;
+  margin-bottom: 1%;
+}
+.capas-image2 {
+  width: 851px;
+  margin-top: 1%;
+  object-fit: cover;
+  margin-bottom: 1%;
+}
+.capas-image3 {
+  width: 851px;
+  margin-top: 1%;
+  object-fit: cover;
+  margin-bottom: 1%;
+}
+.capas-botaoinicio {
+  color: rgb(0, 0, 0);
+  width: var(--dl-size-size-large);
+  font-size: 18px;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-weight: 700;
+  border-style: hidden;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+}
+@media(max-width: 479px) {
+  .capas-image {
+    width: 100%;
+  }
+  .capas-image1 {
+    width: 100%;
+  }
+  .capas-image2 {
+    width: 100%;
+  }
+  .capas-image3 {
+    width: 100%;
+  }
+}
