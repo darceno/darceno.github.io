@@ -157,7 +157,7 @@
 }
 @media(max-width: 479px) {
   .home-titulooi {
-    height: 97px;
+    height: auto;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
